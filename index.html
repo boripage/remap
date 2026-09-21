@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>리맵 효심케어서비스</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "warm-white": "#FFFFFF", "surface-dim": "#ded9d3", "tertiary-fixed": "#89f5e7", "secondary-fixed-dim": "#ffb95f", "tertiary-fixed-dim": "#6bd8cb", "surface-cream": "#FDFBF7", "surface-ivory": "#F5EFEB", "surface": "#fef9f2", "on-surface": "#1d1c18", "border-warm": "#EBE2D5", "inverse-on-surface": "#f5f0e9", "surface-bright": "#fef9f2", "surface-container": "#f2ede6", "error": "#ba1a1a", "on-tertiary-container": "#f4fffc", "text-muted": "#7A6F68", "surface-container-highest": "#e6e2db", "on-tertiary": "#ffffff", "inverse-primary": "#ffb599", "text-charcoal": "#2D2622", "on-tertiary-fixed": "#00201d", "tertiary-container": "#008378", "on-primary": "#ffffff", "surface-variant": "#e6e2db", "surface-container-high": "#ece7e1", "on-error-container": "#93000a", "surface-tint": "#a73a00", "on-primary-container": "#fffbff", "on-primary-fixed": "#370e00", "tertiary": "#00685f", "primary-container": "#cc4900", "on-primary-fixed-variant": "#7f2b00", "error-container": "#ffdad6", "on-secondary-fixed-variant": "#653e00", "inverse-surface": "#32302c", "on-secondary": "#ffffff", "on-secondary-fixed": "#2a1700", "on-tertiary-fixed-variant": "#005049", "outline": "#8e7166", "surface-container-low": "#f8f3ec", "secondary-fixed": "#ffddb8", "surface-container-lowest": "#ffffff", "on-surface-variant": "#5a4138", "primary-fixed": "#ffdbce", "on-background": "#1d1c18", "honey-soft": "#FEF3C7", "primary-fixed-dim": "#ffb599", "background": "#fef9f2", "secondary-container": "#fea619", "outline-variant": "#e2bfb2", "mint-gentle": "#E6F6F4", "on-secondary-container": "#684000", "secondary": "#855300", "on-error": "#ffffff", "primary": "#a33900" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "2rem", "gutter": "1.5rem", "space-md": "1.25rem", "space-xl": "3rem", "space-xs": "0.375rem", "space-sm": "0.75rem", "gutter-mobile": "1rem", "margin-mobile": "1.25rem", "margin": "2.5rem" }, "fontFamily": { "headline-lg": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg": ["28px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero": ["44px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "title-lg": ["19px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl": ["36px", { "lineHeight": "46px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "32px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-hero-mobile": ["32px", { "lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "headline-xl-mobile": ["26px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-sm": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "label-lg": ["15px", { "lineHeight": "20px", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen flex flex-col selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 w-full z-50 bg-surface-cream/90 backdrop-blur-xl shadow-[0_4px_20px_-2px_rgba(45,38,34,0.05)]"><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-gutter"><a class="flex items-center gap-space-xs group" data-path="home" href="#"><div class="w-10 h-10 rounded-full overflow-hidden bg-primary-fixed flex items-center justify-center p-0.5"><img alt="리맵 효심케어서비스 로고" class="w-full h-full object-cover rounded-full" src="assets/img-1.jpg"/></div><div class="flex flex-col"><span class="font-title-lg text-title-lg text-text-charcoal tracking-tight group-hover:text-primary transition-colors">리맵 효심케어서비스</span><span class="font-label-sm text-label-sm text-text-muted">따뜻한 동행, 가족의 마음</span></div></a><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-headline-md font-semibold bg-honey-soft/40 px-space-xs py-1 rounded-lg"><a aria-current="page" class="transition-colors text-primary font-headline-md font-semibold bg-honey-soft/40 px-space-xs py-1 rounded-lg" data-path="home" href="#">홈</a><a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" data-path="service-introduction" href="#">서비스 소개</a><a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" data-path="hyosim-programs" href="#">효심 12가지 프로그램</a><a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" data-path="customer-center-faq" href="#">고객센터 &amp; FAQ</a><a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" data-path="premium-care-2027" href="#">2027 프리미엄 케어</a></nav><div class="flex items-center gap-space-sm"><div class="hidden md:flex flex-col items-end mr-space-xs"><span class="font-label-sm text-label-sm text-text-muted">상담문의 및 직통안내</span><span class="font-title-lg text-title-lg text-primary font-bold">010-3243-0154</span></div><a class="hidden lg:inline-flex items-center justify-center px-space-md py-2.5 rounded-xl bg-surface-ivory text-primary font-label-lg text-label-lg hover:bg-surface-container transition-all" data-path="caregiver-apply" href="#">케어매니저 지원</a><a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container shadow-[0_4px_16px_rgba(163,57,0,0.2)] hover:shadow-none transition-all" data-path="service-request" href="#">서비스 신청하기</a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="assets/img-1.jpg"/></div></div></div></header><main class="w-full pt-20 flex-grow bg-surface"><div class="flex flex-col w-full">
+<!-- Top Hero Visual Banner (Bleeds seamlessly into header vibe) -->
+<section class="relative w-full overflow-hidden bg-surface-cream pb-space-xl">
+<!-- Ambient Warm Glow Background -->
+<div class="absolute -top-24 right-0 w-[500px] h-[500px] rounded-full bg-secondary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-20 w-[420px] h-[420px] rounded-full bg-honey-soft/50 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-gutter relative z-10 pt-space-lg lg:pt-space-xl">
+<!-- Main Hero Split Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Text Content -->
+<div class="lg:col-span-6 flex flex-col items-start gap-space-md">
+<!-- Warm Filial Badge -->
+<div class="inline-flex items-center gap-2 px-space-md py-1.5 rounded-full bg-honey-soft text-secondary font-label-md text-label-md shadow-sm">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span>마음은 멀어도, 효심은 가까이 · 민간 맞춤형 대리효도</span>
+</div>
+<div class="space-y-3">
+<h1 class="font-display-hero text-display-hero text-text-charcoal tracking-tight leading-tight">
+              부모님 곁에 머무는<br/>
+<span class="text-primary">따뜻한 시간</span>, 마음까지<br/>
+              돌보는 리맵 효심케어
+            </h1>
+<p class="font-body-lg text-body-lg text-text-muted leading-relaxed max-w-xl">
+              바쁜 자녀를 대신해 정성과 온기로 부모님의 일상을 살핍니다.<br class="hidden sm:inline"/>
+<strong>한 달 4회 · 주 1회 1시간</strong> 정기 가정방문 대리효도 서비스로 따스한 행복을 전합니다.
+            </p>
+</div>
+<!-- Actions Group -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm w-full sm:w-auto pt-space-xs">
+<a class="inline-flex items-center justify-center gap-2 px-space-lg py-3.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-lg shadow-primary/25 hover:bg-primary-container hover:shadow-md transition-all text-center" href="#quick-inquiry">
+<span>효심케어 신청하기</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-space-md py-3.5 rounded-xl bg-surface-ivory text-primary font-label-lg text-label-lg hover:bg-surface-container transition-all text-center" href="tel:010-3243-0154">
+<span class="material-symbols-outlined text-lg">call</span>
+<span>간편 전화 상담 (010-3243-0154)</span>
+</a>
+</div>
+<!-- Quick Trust Proof Badges -->
+<div class="grid grid-cols-3 gap-2 w-full pt-space-sm">
+<div class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-ivory/80">
+<span class="material-symbols-outlined text-primary text-xl">verified_user</span>
+<span class="font-label-sm text-label-sm text-text-charcoal leading-tight">100% 신원 검증<br/>전문 케어매니저</span>
+</div>
+<div class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-ivory/80">
+<span class="material-symbols-outlined text-primary text-xl">mark_chat_read</span>
+<span class="font-label-sm text-label-sm text-text-charcoal leading-tight">정기 방문 &amp;<br/>사진 리포트 전송</span>
+</div>
+<div class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-ivory/80">
+<span class="material-symbols-outlined text-primary text-xl">partner_exchange</span>
+<span class="font-label-sm text-label-sm text-text-charcoal leading-tight">부모님 성향<br/>맞춤 1:1 일정</span>
+</div>
+</div>
+</div>
+<!-- Hero Photo & Emotional Card Graphic -->
+<div class="lg:col-span-6 relative mt-space-md lg:mt-0">
+<div class="relative rounded-3xl overflow-hidden shadow-2xl bg-surface-container">
+<img alt="리맵 효심케어 전문 매니저가 어르신의 손을 잡고 따스한 미소를 짓는 모습" class="w-full h-[420px] lg:h-[490px] object-cover" src="assets/img-2.jpg"/>
+<!-- Warm Vignette Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-text-charcoal/70 via-transparent to-transparent"></div>
+<!-- Floating Emotional Caption inside Image -->
+<div class="absolute bottom-6 left-6 right-6 p-space-md rounded-2xl bg-surface-cream/90 backdrop-blur-md shadow-md flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-honey-soft flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">sentiment_satisfied</span>
+</div>
+<div>
+<h2 class="font-title-lg text-title-lg text-text-charcoal leading-tight">“엄마가 매주 기다려진다고 하세요”</h2>
+<p class="font-body-sm text-body-sm text-text-muted">서울 강남 거주 따님 · 부산 어머니 6개월 이용 후기</p>
+</div>
+</div>
+<div class="hidden sm:flex flex-col items-end">
+<div class="flex items-center text-secondary-container">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-text-muted">보호자 만족도 98.4%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Brand Strip / Philosophy Intro -->
+<section class="w-full bg-warm-white py-space-xl">
+<div class="max-w-7xl mx-auto px-gutter">
+<!-- Section Header -->
+<div class="text-center max-w-3xl mx-auto space-y-3 mb-space-xl">
+<span class="font-label-md text-label-md text-primary tracking-wider uppercase font-semibold">About Remap Care</span>
+<h2 class="font-headline-xl text-headline-xl text-text-charcoal">
+          부모님께 필요한 건 단순한 간병이 아니라,<br/>
+<span class="text-primary">따뜻한 관심과 교감</span>입니다.
+        </h2>
+<p class="font-body-md text-body-md text-text-muted">
+          리맵 효심케어서비스는 복잡한 등급 신청이나 병원 간호가 아닌, 부모님의 일상에 생기를 불어넣고 자녀의 따스한 마음을 전하는 고품격 맞춤 대리효도 솔루션입니다.
+        </p>
+</div>
+<!-- 4 Core Pillars Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Pillar 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-cream shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="space-y-space-sm">
+<div class="w-14 h-14 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl">spa</span>
+</div>
+<span class="inline-block font-label-sm text-label-sm text-primary font-bold">01. 정서 휴식 케어</span>
+<h3 class="font-title-lg text-title-lg text-text-charcoal leading-snug">편안함을 살피고 마음까지 힐링되는 시간</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              안마기 케어와 정성 어린 말벗 대화, 따뜻한 온열 족욕으로 부모님의 하루에 편안한 웃음과 안식을 더합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center gap-1.5 text-primary font-label-md text-label-md">
+<span>따뜻한 교감 · 족욕 돌봄</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-cream shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="space-y-space-sm">
+<div class="w-14 h-14 rounded-2xl bg-honey-soft flex items-center justify-center text-secondary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl">directions_walk</span>
+</div>
+<span class="inline-block font-label-sm text-label-sm text-secondary font-bold">02. 생활 활력 케어</span>
+<h3 class="font-title-lg text-title-lg text-text-charcoal leading-snug">부모님 건강을 위해 곁에서 세심하게 살피는 시간</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              혼자서는 미루기 쉬운 가벼운 신체 스트레칭, 손발 체조, 편안한 실내 보행으로 몸과 마음에 활력을 채웁니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center gap-1.5 text-secondary font-label-md text-label-md">
+<span>쉬운 스트레칭 · 건강 안부</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-cream shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="space-y-space-sm">
+<div class="w-14 h-14 rounded-2xl bg-mint-gentle flex items-center justify-center text-tertiary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl">yard</span>
+</div>
+<span class="inline-block font-label-sm text-label-sm text-tertiary font-bold">03. 감성 &amp; 추억 회상</span>
+<h3 class="font-title-lg text-title-lg text-text-charcoal leading-snug">부모님의 감성과 추억을 소중하게 보듬는 시간</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              꽃과 화분을 돌보는 원예테라피, 옛 사진 앨범을 함께 열어보며 인생의 소중한 순간들을 기록하고 나눕니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center gap-1.5 text-tertiary font-label-md text-label-md">
+<span>원예테라피 · 추억 앨범</span>
+</div>
+</div>
+<!-- Pillar 4 -->
+<div class="p-space-lg rounded-2xl bg-surface-cream shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="space-y-space-sm">
+<div class="w-14 h-14 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl">phonelink_setup</span>
+</div>
+<span class="inline-block font-label-sm text-label-sm text-primary font-bold">04. 세심한 디지털 도우미</span>
+<h3 class="font-title-lg text-title-lg text-text-charcoal leading-snug">자녀가 대신 알려드리고픈 디지털 생활 케어</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              스마트폰 영상통화, 카카오톡 사진 보내기, AI 말벗 활용법까지 부모님이 이해하기 쉬운 속도로 친절히 안내합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center gap-1.5 text-primary font-label-md text-label-md">
+<span>스마트폰 · AI 비서 눈높이 지도</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 12 Hyosim Programs Section (Core Highlight Grid) -->
+<section class="w-full bg-surface-ivory py-space-xl" id="programs">
+<div class="max-w-7xl mx-auto px-gutter">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="space-y-2">
+<div class="inline-flex items-center gap-2 px-space-sm py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">stars</span>
+<span>한 달 4회 · 주 1회 1시간 맞춤형 정기 방문</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-text-charcoal">
+            매주 새로운 <span class="text-primary">12가지 효심 프로그램</span>
+</h2>
+<p class="font-body-md text-body-md text-text-muted max-w-2xl">
+            대화, 건강, 만들기, 꽃, 다과, 추억기록까지—부모님의 성향과 당일 컨디션에 맞춰 케어매니저가 가장 행복한 시간을 설계합니다.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-text-muted">다양한 취향 맞춤 진행</span>
+<div class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></div>
+</div>
+</div>
+<!-- 12-Card Grid (4 cols on lg, 2 on md, 1 on sm) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-space-md">
+<!-- 1. 음악·리듬활동 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm font-bold">#01 음악·리듬활동</span>
+<span class="material-symbols-outlined text-secondary text-xl">music_note</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">즐거운 애창곡 &amp; 리듬</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              좋아하시는 추억의 노래와 가벼운 리듬 박수로 웃음과 생기를 함께 채워드립니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">sentiment_very_satisfied</span>
+<span>정서 활력 · 우울감 완화</span>
+</div>
+</div>
+<!-- 2. 건강활력케어 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold">#02 건강활력케어</span>
+<span class="material-symbols-outlined text-primary text-xl">fitness_center</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">생활 스트레칭 &amp; 손발운동</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              손가락 운동, 관절 스트레칭, 무리 없는 실내 체조로 부모님의 하루에 활력을 더합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">accessibility_new</span>
+<span>유연성 · 혈액순환 케어</span>
+</div>
+</div>
+<!-- 3. 가족마음소통 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm font-bold">#03 가족마음소통</span>
+<span class="material-symbols-outlined text-secondary text-xl">favorite</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">말벗 &amp; 자녀 안부 전언</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              정다운 말벗 대화는 물론, 멀리 있는 자녀의 사랑과 안부 메시지를 정성껏 전해드립니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">forum</span>
+<span>정서적 고립감 해소</span>
+</div>
+</div>
+<!-- 4. 효도돌봄 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold">#04 효도돌봄</span>
+<span class="material-symbols-outlined text-primary text-xl">self_improvement</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">손마사지 &amp; 온열 족욕</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              따뜻한 족욕과 부드러운 손마사지, 안마기 케어로 누적된 피로를 풀고 깊은 안식을 선물합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">hot_tub</span>
+<span>심신 이완 · 숙면 지원</span>
+</div>
+</div>
+<!-- 5. 원예힐링 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-mint-gentle text-tertiary font-label-sm text-label-sm font-bold">#05 꽃·원예힐링</span>
+<span class="material-symbols-outlined text-tertiary text-xl">local_florist</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">화분 가꾸기 &amp; 꽃꽂이</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              화사한 생화와 화초를 함께 분갈이하고 가꾸며 싱그러운 정서 힐링을 누립니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-tertiary">psychology</span>
+<span>오감 자극 · 정서 안정</span>
+</div>
+</div>
+<!-- 6. 요리&다과시간 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm font-bold">#06 요리·다과시간</span>
+<span class="material-symbols-outlined text-secondary text-xl">emoji_food_beverage</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">건강 간식 &amp; 차 한 잔</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              차 한 잔과 함께 간단하고 건강한 과일 다과를 나누며 도란도란 정을 나눕니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">restaurant</span>
+<span>식욕 돋움 · 식생활 체크</span>
+</div>
+</div>
+<!-- 7. 추억기록 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold">#07 추억기록</span>
+<span class="material-symbols-outlined text-primary text-xl">auto_stories</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">인생 회고 &amp; 사진 정리</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              장롱 속 옛 사진과 인생 이야기를 함께 돌아보며 부모님의 고귀한 삶을 기록합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">history_edu</span>
+<span>자아 존중감 · 추억 보존</span>
+</div>
+</div>
+<!-- 8. 치매예방두뇌놀이 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm font-bold">#08 인지·두뇌놀이</span>
+<span class="material-symbols-outlined text-secondary text-xl">extension</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">기억 퀴즈 &amp; 퍼즐 맞추기</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              부담 없는 두뇌 퀴즈, 낱말 잇기, 퍼즐 놀이로 웃음 속에서 인지 활동을 자극합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">lightbulb</span>
+<span>치매 예방 · 뇌 활성화</span>
+</div>
+</div>
+<!-- 9. 디지털·AI활용 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold">#09 디지털·AI 대리효도</span>
+<span class="material-symbols-outlined text-primary text-xl">smart_toy</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">스마트폰 &amp; 키오스크 실습</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              자녀와의 카카오톡 영상통화, 사진 전송, 생활 AI 비서 사용법을 친절히 안내합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">devices</span>
+<span>디지털 소외 격차 해소</span>
+</div>
+</div>
+<!-- 10. 스타일링케어 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-mint-gentle text-tertiary font-label-sm text-label-sm font-bold">#10 스타일링케어</span>
+<span class="material-symbols-outlined text-tertiary text-xl">face_3</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">옷 코디 &amp; 손발톱 뷰티</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              단정한 손발톱 정돈, 어울리는 의상 코디, 외출 준비로 부모님의 자존감을 높여드립니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-tertiary">check_circle</span>
+<span>기분 전환 · 활기찬 미소</span>
+</div>
+</div>
+<!-- 11. 손끝창작시간 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm font-bold">#11 손끝창작시간</span>
+<span class="material-symbols-outlined text-secondary text-xl">palette</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">색칠공예 &amp; 소근육 만들기</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              컬러링북 색칠, 종이접기, 간단한 소품 만들기로 기분 좋은 성취감을 선물합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">brush</span>
+<span>소근육 자극 · 즐거운 취미</span>
+</div>
+</div>
+<!-- 12. 세계문화여행 -->
+<div class="p-space-md rounded-2xl bg-warm-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold">#12 세계문화여행</span>
+<span class="material-symbols-outlined text-primary text-xl">travel_explore</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-text-charcoal pt-1">랜선 여행 &amp; 흥미로운 이야기</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              가보지 못한 세계 명소 사진과 문화 이야기로 일상 속 신선한 호기심과 즐거움을 선물합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-1.5 text-xs text-text-muted">
+<span class="material-symbols-outlined text-sm text-primary">explore</span>
+<span>새로운 시야 · 대화 소재</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Guardian Relief Report System (Family Kakao Feedback Preview) -->
+<section class="w-full bg-warm-white py-space-xl">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Explanatory Content -->
+<div class="lg:col-span-6 space-y-space-md">
+<div class="inline-flex items-center gap-2 px-space-md py-1.5 rounded-full bg-mint-gentle text-tertiary font-label-md text-label-md">
+<span class="material-symbols-outlined text-base">verified</span>
+<span>자녀 안심 피드백 시스템</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-text-charcoal">
+            방문이 끝나면 매회 활동 사진과<br/>
+<span class="text-primary">부모님의 컨디션 알림장</span>을 전송합니다
+          </h2>
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+            멀리 계신 자녀분들이 부모님 걱정 없이 생업에 집중하실 수 있도록, 매 방문 직후 부모님의 밝은 표정과 당일 프로그램 활동 리포트를 카카오톡으로 실시간 보고해 드립니다.
+          </p>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex items-start gap-3 p-3.5 rounded-xl bg-surface-cream">
+<div class="w-8 h-8 rounded-full bg-honey-soft flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-base">photo_camera</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-text-charcoal text-base">생생한 활동 사진 및 표정 촬영</h4>
+<p class="font-body-sm text-body-sm text-text-muted">원예, 족욕, 다과 등 부모님이 활짝 웃으시는 순간을 고화질로 담아 공유합니다.</p>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3.5 rounded-xl bg-surface-cream">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-base">medical_information</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-text-charcoal text-base">기본 건강 &amp; 식생활 컨디션 체크</h4>
+<p class="font-body-sm text-body-sm text-text-muted">식사 상태, 실내 환경, 복약 여부, 신체 컨디션을 세심하게 관찰하여 소견을 전달합니다.</p>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3.5 rounded-xl bg-surface-cream">
+<div class="w-8 h-8 rounded-full bg-mint-gentle flex items-center justify-center text-tertiary shrink-0">
+<span class="material-symbols-outlined text-base">reply_all</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-text-charcoal text-base">자녀분의 따뜻한 답장 전달</h4>
+<p class="font-body-sm text-body-sm text-text-muted">리포트를 보고 자녀분이 남겨주신 답장 메시지를 다음 방문 시 어르신께 직접 읽어드립니다.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Mobile Mockup Report Card Preview -->
+<div class="lg:col-span-6 flex justify-center">
+<div class="w-full max-w-md rounded-3xl bg-surface-cream p-5 shadow-xl space-y-4">
+<!-- Simulated Mobile Header -->
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-sm">
+                  리맵
+                </div>
+<div>
+<h4 class="font-title-lg text-title-lg text-text-charcoal text-sm font-bold">리맵 효심 알림장</h4>
+<p class="text-xs text-text-muted">2026년 3월 24일 (화) 15:30 전송</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-xs font-bold">방문 완료</span>
+</div>
+<!-- Visual Snapshot Slot -->
+<div class="rounded-2xl overflow-hidden bg-surface-container relative">
+<div class="h-44 w-full bg-cover bg-center" data-alt="A smiling Korean grandmother holding a small freshly planted potted flower next to a warm gentle female caregiver smiling in a sunlit warm living room. Emotional, filial, cheerful Korean lifestyle companion photography." style="background-image: url('assets/img-3.jpg')"></div>
+<div class="absolute bottom-2 left-2 px-2.5 py-0.5 rounded-md bg-text-charcoal/70 text-warm-white text-xs">
+                #원예힐링 #화분가꾸기 #밝은미소
+              </div>
+</div>
+<!-- Report Details Table -->
+<div class="bg-warm-white rounded-xl p-4 space-y-2.5 text-xs text-text-charcoal shadow-sm">
+<div class="flex justify-between items-center py-1">
+<span class="text-text-muted">어르신 성함</span>
+<span class="font-semibold">이순자 어르신 (부산 해운대구)</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-text-muted">담당 케어매니저</span>
+<span class="font-semibold text-primary">박수진 매니저 (1급 자격)</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span class="text-text-muted">금일 진행 프로그램</span>
+<span class="font-semibold text-secondary">#꽃·원예힐링 + 온열 족욕</span>
+</div>
+<div class="pt-2">
+<span class="text-text-muted block mb-1">매니저 한줄 소견</span>
+<p class="bg-surface-ivory p-2.5 rounded-lg text-text-charcoal leading-relaxed">
+                  “어머님께서 봄꽃 화분을 보시며 딸 생각난다고 활짝 웃으셨습니다. 족욕 후 발 마사지로 피로도 많이 덜어드렸고 혈색이 아주 좋으십니다. 보내주신 사랑 메시지도 잘 전달해 드렸습니다!”
+                </p>
+</div>
+</div>
+<div class="flex items-center justify-between text-xs text-text-muted px-1">
+<span>보호자 답장 대기 중</span>
+<span class="text-primary font-bold inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">chat_bubble</span> 카카오톡 실시간 연동
+              </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Future Premium Lineup (2027 Roadmaps) -->
+<section class="w-full bg-surface py-space-xl">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-space-lg space-y-2">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">고품격 고객 맞춤 솔루션</span>
+<h2 class="font-headline-lg text-headline-lg text-text-charcoal">
+          특별한 날을 위한 <span class="text-primary">프리미엄 효도 서비스</span>
+</h2>
+<p class="font-body-sm text-body-sm text-text-muted">
+          일상을 넘어 생신, 기념일, 외출까지 자녀의 품격 있는 정성을 전하는 맞춤 프리미엄 라인업이 준비 중입니다.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="p-space-lg rounded-2xl bg-surface-cream shadow-sm flex flex-col justify-between">
+<div class="space-y-space-xs">
+<span class="inline-block px-3 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold">2027 상반기 오픈</span>
+<h3 class="font-title-lg text-title-lg text-text-charcoal">스페셜데이 케어</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              부모님 생신, 칠순·팔순, 어버이날 등 뜻깊은 날에 맞춘 특별 생신상 차림과 기념 꽃다발, 축하 이벤트를 제공합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center text-xs text-primary font-semibold">
+<span>특별 기념일 전담 플래닝</span>
+</div>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-cream shadow-sm flex flex-col justify-between">
+<div class="space-y-space-xs">
+<span class="inline-block px-3 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm font-bold">2027 하반기 오픈</span>
+<h3 class="font-title-lg text-title-lg text-text-charcoal">노블리제 · 프렌드십 파티</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              동네 친우분들과 도란도란 품격 있는 다과 티타임 및 교류를 즐기실 수 있는 시니어 소셜 살롱 프로그램을 기획합니다.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center text-xs text-secondary font-semibold">
+<span>시니어 소셜 교류 살롱</span>
+</div>
+</div>
+<div class="p-space-lg rounded-2xl bg-surface-cream shadow-sm flex flex-col justify-between">
+<div class="space-y-space-xs">
+<span class="inline-block px-3 py-1 rounded-full bg-mint-gentle text-tertiary font-label-sm text-label-sm font-bold">2027 하반기 오픈</span>
+<h3 class="font-title-lg text-title-lg text-text-charcoal">프리미엄 동행 케어</h3>
+<p class="font-body-sm text-body-sm text-text-muted leading-relaxed">
+              자녀의 마음으로 안전하고 품격 있게 모시는 프리미엄 나들이, 문화 공연 관람, 단골 식당 외식 1:1 전담 안심 동행.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center text-xs text-tertiary font-semibold">
+<span>외출·문화생활 1:1 VIP 동행</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Inquiry Form Section -->
+<section class="w-full bg-warm-white py-space-xl" id="quick-inquiry">
+<div class="max-w-5xl mx-auto px-gutter">
+<div class="rounded-3xl bg-surface-cream p-space-lg md:p-space-xl shadow-xl">
+<!-- Form Header -->
+<div class="text-center max-w-2xl mx-auto mb-space-lg space-y-2">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-honey-soft text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>간편 1분 상담 접수</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-text-charcoal">
+            마음은 멀어도, 효심은 가까이
+          </h2>
+<p class="font-body-md text-body-md text-text-muted">
+            지금 부모님께 매주 기다려지는 따뜻한 시간을 선물하세요.<br class="hidden sm:inline"/>
+            신청서를 남겨주시면 전문 케어 코디네이터가 친절히 상담해 드립니다.
+          </p>
+</div>
+<!-- Interactive Form -->
+<form class="space-y-space-md max-w-3xl mx-auto" id="hyosim-inquiry-form" onsubmit="event.preventDefault(); document.getElementById('submit-success-box').classList.remove('hidden'); this.reset();">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- 신청자 성함 -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-text-charcoal block" for="applicant-name">신청자(자녀) 성함 *</label>
+<input class="w-full h-13 px-4 rounded-xl bg-warm-white text-text-charcoal font-body-md text-body-md placeholder:text-text-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="applicant-name" placeholder="예: 홍길동" required="" type="text"/>
+</div>
+<!-- 신청자 연락처 -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-text-charcoal block" for="applicant-phone">핸드폰 번호 *</label>
+<input class="w-full h-13 px-4 rounded-xl bg-warm-white text-text-charcoal font-body-md text-body-md placeholder:text-text-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="applicant-phone" placeholder="010-0000-0000" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- 부모님 거주 지역 -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-text-charcoal block" for="parent-region">부모님 거주 지역 *</label>
+<input class="w-full h-13 px-4 rounded-xl bg-warm-white text-text-charcoal font-body-md text-body-md placeholder:text-text-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="parent-region" placeholder="예: 부산진구 가야동, 해운대구 등" required="" type="text"/>
+</div>
+<!-- 이메일 (선택) -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-text-charcoal block" for="applicant-email">이메일 주소 (선택)</label>
+<input class="w-full h-13 px-4 rounded-xl bg-warm-white text-text-charcoal font-body-md text-body-md placeholder:text-text-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="applicant-email" placeholder="example@email.com" type="email"/>
+</div>
+</div>
+<!-- 원하시는 프로그램 / 상담 메모 -->
+<div class="space-y-1.5">
+<label class="font-label-md text-label-md text-text-charcoal block" for="care-note">부모님 성향 및 특별히 원하시는 케어 (선택)</label>
+<textarea class="w-full p-4 rounded-xl bg-warm-white text-text-charcoal font-body-md text-body-md placeholder:text-text-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-primary transition-all resize-none" id="care-note" placeholder="예: 평소 혼자 계셔서 말벗이 필요하시고, 화초 키우기를 좋아하십니다. 온열 족욕 케어도 희망합니다." rows="3"></textarea>
+</div>
+<!-- 개인정보 수집동의 체크박스 -->
+<div class="flex items-center gap-2 pt-1">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary accent-primary cursor-pointer" id="privacy-agree" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-text-muted cursor-pointer" for="privacy-agree">
+<span>개인정보 수집 및 상담 이용에 동의합니다. (상담 목적 외 사용되지 않습니다)</span>
+</label>
+</div>
+<!-- Submit Action Button -->
+<div class="pt-space-xs">
+<button class="w-full py-4 rounded-xl bg-primary text-on-primary font-headline-md text-headline-md shadow-lg shadow-primary/20 hover:bg-primary-container transition-all flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined">send</span>
+<span>상담 신청하기</span>
+</button>
+</div>
+</form>
+<!-- Dynamic Success Message Alert -->
+<div class="hidden mt-space-md p-space-md rounded-2xl bg-mint-gentle text-tertiary flex items-center gap-3" id="submit-success-box">
+<span class="material-symbols-outlined text-2xl">task_alt</span>
+<div>
+<h4 class="font-title-lg text-title-lg text-tertiary leading-tight">신청이 정상적으로 접수되었습니다!</h4>
+<p class="font-body-sm text-body-sm text-tertiary/90">담당 전문 케어 코디네이터가 1~2영업일 이내로 친절히 연락드리겠습니다.</p>
+</div>
+</div>
+<!-- Direct Call Assistance Strip -->
+<div class="mt-space-lg pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm bg-warm-white p-space-md rounded-2xl">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-honey-soft text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">support_agent</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-text-muted block">전화 상담이 더 편하신가요?</span>
+<span class="font-title-lg text-title-lg text-text-charcoal font-bold">대표 직통 전화 010-3243-0154</span>
+</div>
+</div>
+<a class="px-space-md py-2.5 rounded-xl bg-surface-cream text-primary font-label-md text-label-md hover:bg-surface-ivory transition-all flex items-center gap-1.5" href="tel:010-3243-0154">
+<span class="material-symbols-outlined text-base">call</span>
+<span>지금 바로 전화걸기</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Mobile Bottom Bar for Rapid Filial Care Access -->
+<div class="md:hidden fixed bottom-0 left-0 w-full z-40 bg-surface-cream/95 backdrop-blur-md px-gutter py-3 shadow-[0_-4px_20px_rgba(45,38,34,0.08)] flex items-center justify-between gap-3">
+<a class="flex-1 py-3 rounded-xl bg-surface-ivory text-primary text-center font-label-md text-label-md flex items-center justify-center gap-1" href="tel:010-3243-0154">
+<span class="material-symbols-outlined text-base">call</span>
+<span>전화 문의</span>
+</a>
+<a class="flex-1 py-3 rounded-xl bg-primary text-on-primary text-center font-label-md text-label-md shadow-md shadow-primary/20 flex items-center justify-center gap-1" href="#quick-inquiry">
+<span class="material-symbols-outlined text-base">edit_note</span>
+<span>간편 상담신청</span>
+</a>
+</div>
+</div></main><footer class="w-full bg-surface-cream text-text-charcoal mt-space-xl shadow-[0_-4px_24px_rgba(45,38,34,0.03)]"><div class="max-w-7xl mx-auto px-gutter pt-margin pb-space-xl"><div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-space-lg"><div class="lg:col-span-5 flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs"><div class="w-8 h-8 rounded-full overflow-hidden bg-primary-fixed flex items-center justify-center"><img alt="리맵 효심케어" class="w-full h-full object-cover" src="assets/img-1.jpg"/></div><span class="font-headline-md text-headline-md text-text-charcoal">리맵 효심케어서비스</span></div><p class="font-body-sm text-body-sm text-text-muted leading-relaxed max-w-md">부모님의 일상에 따스한 미소와 존엄성을 더하는 고품격 맞춤형 라이프 케어 컴패니언 서비스입니다. 가족의 든든한 효심이 되어 함께 걷겠습니다.</p><div class="flex items-center gap-space-sm mt-space-xs"><a class="inline-flex items-center gap-1.5 px-space-md py-2 rounded-full bg-honey-soft text-on-secondary-container font-label-md text-label-md hover:bg-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-sm">chat</span>카카오톡 채널 상담하기</a><a class="inline-flex items-center gap-1.5 px-space-md py-2 rounded-full bg-mint-gentle text-tertiary font-label-md text-label-md hover:bg-tertiary-fixed-dim transition-colors" href="tel:010-3243-0154"><span class="material-symbols-outlined text-sm">phone_in_talk</span>유선상담 문의</a></div></div><div class="lg:col-span-7 flex flex-col justify-between"><div class="flex flex-wrap items-center gap-x-space-md gap-y-2 pb-space-sm"><a class="font-label-md text-label-md text-text-charcoal hover:text-primary transition-colors" data-path="terms-of-service" href="#">이용약관</a><span class="text-text-muted text-xs">|</span><a class="font-label-md text-label-md text-primary font-bold hover:text-primary-container transition-colors" data-path="privacy-policy" href="#">개인정보처리방침</a><span class="text-text-muted text-xs">|</span><a class="font-label-md text-label-md text-text-muted hover:text-text-charcoal transition-colors" data-path="email-refusal-policy" href="#">이메일무단수집거부</a><span class="text-text-muted text-xs">|</span><a class="font-label-md text-label-md text-text-muted hover:text-text-charcoal transition-colors" data-path="customer-center-faq" href="#">고객지원센터</a></div><div class="space-y-1.5 font-body-sm text-body-sm text-text-muted leading-normal"><div class="flex flex-wrap gap-x-space-md gap-y-1"><span><strong>(주)리맵</strong></span><span>대표자명: 김현지</span><span>사업자등록번호: 348-88-03270</span></div><div class="flex flex-wrap gap-x-space-md gap-y-1"><span>사업장주소: 부산광역시 부산진구 엄광로 176, 동의대학교 제1효민생활관 313호</span></div><div class="flex flex-wrap gap-x-space-md gap-y-1"><span>연락처: <a class="text-on-surface hover:text-primary transition-colors" href="tel:010-3243-0154">010-3243-0154</a></span><span>이메일: <a class="text-on-surface hover:text-primary transition-colors" href="mailto:remap1@naver.com">remap1@naver.com</a></span></div></div></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-xs text-text-muted font-body-sm text-body-sm"><p>Copyright ⓒ 2026 리맵 효심케어 All rights reserved.</p><div class="flex items-center gap-space-xs text-label-sm font-label-sm"><span class="material-symbols-outlined text-base text-primary">favorite</span><span>정성을 다하는 효심 케어 동반자</span></div></div></div></footer></body></html>
